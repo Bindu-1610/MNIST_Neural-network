@@ -261,9 +261,9 @@ test_loss, test_accuracy = model.evaluate(
 ### Test Results
 
 ```text
-Test Loss: __________
+Test Loss: 0.0889
 
-Test Accuracy: __________ %
+Test Accuracy: 97.610 %
 ```
 
 > Fill these values using the actual results obtained from the Jupyter Notebook.
@@ -353,8 +353,8 @@ The experimental model is compiled and trained using the same optimizer, loss fu
 
 | Model | Hidden Neurons | Epochs | Test Accuracy |
 |---|---:|---:|---:|
-| Original Model | 128 | 10 | ______ % |
-| Experiment Model | 256 | 10 | ______ % |
+| Original Model | 128 | 10 | 97.61 % |
+| Experiment Model | 256 | 10 | 97.53 % |
 
 The actual values should be entered based on the output from the notebook.
 
@@ -426,20 +426,7 @@ MNIST-Handwritten-Digit-Classification/
 └── report.pdf
 ```
 
-### File Description
-
-**MNIST_Handwritten_Digit_Classification.ipynb**  
-Contains the complete Python implementation, model training, evaluation, graphs, predictions, and experiment.
-
-**README.md**  
-Contains the project description, methodology, architecture, results, and instructions.
-
-**report.pdf**  
-Contains the assignment report.
-
----
-
-## 22. How to Run the Project
+##  How to Run the Project
 
 ### Step 1: Install Required Libraries
 
@@ -469,7 +456,7 @@ Run the cells in order. The MNIST dataset will be downloaded automatically throu
 
 ---
 
-## 23. Conclusion
+##  Conclusion
 
 This project demonstrates the implementation of a simple Deep Learning neural network for handwritten digit classification using the MNIST dataset. The model learns patterns from 28 × 28 pixel images and classifies them into ten digit classes from 0 to 9.
 
@@ -478,19 +465,6 @@ The project covers the complete Deep Learning workflow, including dataset loadin
 The experiment with 256 neurons provides a comparison with the original 128-neuron model and demonstrates the effect of changing the neural network architecture.
 
 ---
-
-## 24. Author
-
-**Name:** Modem Himabindu  
-**Course:** B.Tech – Information Technology  
-**Assignment:** Deep Learning Assignment – 2
-
----
-
-## 25. GitHub Repository
-
-**GitHub Link:**
-
 ```text
 https://github.com/____________________________
 ```
